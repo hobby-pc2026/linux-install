@@ -1,13 +1,16 @@
 Markdown
 
 ```mermaid
-journey
-    title My working day
-    section Go to work
-      Make tea: 5: Me
-      Go upstairs: 3: Me
-      Do work: 1: Me, Cat
-    section Go home
-      Go downstairs: 5: Me
-      Sit down: 5: Me
+flowchart LR
+    subgraph フェーズ1 [認知フェーズ]
+        subgraph サブ1 [SNS流入]
+            A[広告を見る] --> B[サイトへ遷移]
+        end
+        subgraph サブ2 [検索行動]
+            B --> C[キーワード検索]
+        end
+    end
+    subgraph フェーズ2 [購入フェーズ]
+        C --> D[カート追加] --> E[決済完了]
+    end
 ```
