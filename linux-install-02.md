@@ -9,22 +9,22 @@ flowchart LR
         subgraph サブ2 [SNS流入]
             A --> B[サイトへ遷移]
         end
+    end
+    subgraph フェーズ2 [認知フェーズ]
         subgraph サブ3 [検索行動]
             B --> C[キーワード検索]
         end
-    end
-    subgraph フェーズ2 [認知フェーズ]
         subgraph サブ4 [SNS流入]
             C --> E[サイトへ遷移]
         end
+    end
+    subgraph フェーズ3 [購入フェーズ]
         subgraph サブ5 [検索行動]
             E --> F[キー検索]
         end
         subgraph サブ6 [検索行動]
             F --> G[キーワ検索]
         end
-    end
-    subgraph フェーズ3 [購入フェーズ]
         subgraph サブ7 [SNS流入]
             G --> H[サイトへ遷移] 
         end
