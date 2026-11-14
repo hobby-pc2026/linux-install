@@ -4,9 +4,12 @@ Markdown
 flowchart LR
     subgraph フェーズ1 [認知フェーズ]
         subgraph サブ1 [SNS流入]
-            A[広告を見る] --> B[サイトへ遷移]
+            A[広告を見る] 
         end
-        subgraph サブ2 [検索行動]
+        subgraph サブ2 [SNS流入]
+            A --> B[サイトへ遷移]
+        end
+        subgraph サブ3 [検索行動]
             B --> C[キーワード検索]
         end
     end
@@ -22,6 +25,14 @@ flowchart LR
         end
     end
     subgraph フェーズ3 [購入フェーズ]
-        G --> H[カート追加] --> I[決済完了]
+        subgraph サブ7 [SNS流入]
+            G --> H[サイトへ遷移] 
+        end
+        subgraph サブ8 [SNS流入]
+            H --> I[サイトへ遷移]
+        end
+        subgraph サブ9 [検索行動]
+            I --> J[キーワード検索]
+        end
     end
 ```
