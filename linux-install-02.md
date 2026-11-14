@@ -7,7 +7,12 @@ columns 1
 
   block:ID
     A
+      D
+      E
     B["A wide one in the middle"]
+      F
+      G
+      H
     C
   end
 
