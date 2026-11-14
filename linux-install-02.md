@@ -1,20 +1,13 @@
 Markdown
 
 ```mermaid
-treemap-beta
-"Section 3"
-    "Leaf 2.1":11:::class1
-    "Section 2.2":11:::class1
-    "Leaf 2.2.1":11:::class1
-"Section 2"
-    "Leaf 2.1":11:::class1
-        "Leaf 2.1":4
-        "Leaf 2.1":4
-        "Leaf 2.1":4
-    "Section 2.2":11:::class1
-    "Leaf 2.2.1":11:::class1
-"Section 1"
-    "Leaf 1.1": 11:::class1
-    "Leaf 1.2": 11:::class1
-    "Leaf 1.3": 11:::class1
+gantt
+    title A Gantt Diagram
+    dateFormat YYYY-MM-DD
+    section Section
+        A task          :a1, 2014-01-01, 30d
+        Another task    :after a1, 20d
+    section Another
+        Task in Another :2014-01-12, 12d
+        another task    :24d
 ```
