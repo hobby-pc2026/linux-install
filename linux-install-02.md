@@ -1,11 +1,10 @@
 Markdown
 
 ```mermaid
-flowchart TD
+flowchart LR
     subgraph フェーズ1 [インストール・メディアの準備]
-        subgraph サブ1 [SNS流入]
+
             A[.iso のダウンロード] --> B[USBメモリに書き込む]
-        end
     end
     subgraph フェーズ2 [認知フェーズ]
         subgraph サブ3 [検索行動]
