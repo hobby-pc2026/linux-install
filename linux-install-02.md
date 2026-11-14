@@ -9,8 +9,20 @@ flowchart LR
         subgraph サブ2 [検索行動]
             B --> C[キーワード検索]
         end
+        subgraph サブ3 [検索行動]
+            C --> D[キーワード検索]
+        end
     end
-    subgraph フェーズ2 [購入フェーズ]
-        C --> D[カート追加] --> E[決済完了]
+        subgraph サブ1 [SNS流入]
+            D[広告を見る] --> E[サイトへ遷移]
+        end
+        subgraph サブ2 [検索行動]
+            E --> F[キーワード検索]
+        end
+        subgraph サブ3 [検索行動]
+            F --> G[キーワード検索]
+        end
+    subgraph フェーズ3 [購入フェーズ]
+        G --> H[カート追加] --> E[決済完了]
     end
 ```
