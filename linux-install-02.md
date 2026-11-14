@@ -2,12 +2,15 @@ Markdown
 ```mermaid
 
 journey
-    title My working day
-    section Go to work
-      Make tea: 5: Me
-      Go upstairs: 3: Me
-      Do work: 1: Me, Cat
-    section Go home
-      Go downstairs: 5: Me
-      Sit down: 5: Me
+    title linux インストール
+    section インストールメディアの準備
+      .iso ダウンロード: 5: Me
+      USBメモリに書き込み: 3: Me
+    section ハードウェアの確認
+      起動、BIOS・UEFI設定: 5: Me
+      wi-fi の準備: 5: Me
+    section インストール
+      インストール: 5: Me
+      日本語化: 5: Me
+      アプリのインストール: 5: Me
 ```
