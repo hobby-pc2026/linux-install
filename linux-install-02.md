@@ -13,16 +13,12 @@ flowchart LR
             C --> E[サイトへ遷移]
      end
     subgraph フェーズ3 [OS・アプリのインストール]
-        subgraph サブ5 [検索行動]
+        subgraph サブ5 [Linuxインストール]
             E --> F[ロケール]
             F --> G[パーティション]
             G --> H[ID・パスワード] 
         end
-        subgraph サブ8 [SNS流入]
             H --> I[日本語化]
-        end
-        subgraph サブ9 [検索行動]
             I --> J[アプリのインストール]
-        end
-    end
+     end
 ```
