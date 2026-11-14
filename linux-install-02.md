@@ -6,14 +6,12 @@ flowchart LR
 
             A[.iso のダウンロード] --> B[USBメモリに書き込む]
     end
-    subgraph フェーズ2 [認知フェーズ]
-        subgraph サブ3 [検索行動]
+    subgraph フェーズ2 [ハードウェアの準備]
+ 
             B --> C[キーワード検索]
-        end
-        subgraph サブ4 [SNS流入]
+
             C --> E[サイトへ遷移]
-        end
-    end
+     end
     subgraph フェーズ3 [購入フェーズ]
         subgraph サブ5 [検索行動]
             E --> F[キー検索]
