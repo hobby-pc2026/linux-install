@@ -1,7 +1,7 @@
 Markdown
 
-mermaid
-```block
+```mermaid
+block
 columns 1
   db(("DB"))
   blockArrowId6<["&nbsp;&nbsp;&nbsp;"]>(down)
