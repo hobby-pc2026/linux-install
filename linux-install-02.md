@@ -2,7 +2,7 @@ Markdown
 ```mermaid
 
 journey
-    title linux インストール
+    title linux インストールの大きな流れ
     section インストールメディアの準備
       .iso ダウンロード:  
       USBメモリに書き込み: 
