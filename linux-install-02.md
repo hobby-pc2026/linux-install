@@ -1,20 +1,13 @@
 Markdown
 
 ```mermaid
-block
-columns 1
-
-
-  block:ID
-    A
-      D
-      E
-    B["A wide one in the middle"]
-      F
-      G
-      H
-    C
-  end
-
-  style B fill:#969,stroke:#333,stroke-width:4px
+treemap-beta
+"Products"
+    "Electronics"
+        "Phones": 50
+        "Computers": 30
+        "Accessories": 20
+    "Clothing"
+        "Men's": 40
+        "Women's": 40
 ```
