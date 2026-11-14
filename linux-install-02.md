@@ -8,7 +8,7 @@ flowchart LR
     end
     subgraph フェーズ2 [ハードウェアの準備]
  
-            B --> C[キーワード検索]
+            B --> C[起動、BIOS・UEFIを設定]
 
             C --> E[サイトへ遷移]
      end
