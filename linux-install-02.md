@@ -2,11 +2,11 @@ Markdown
 
 ```mermaid
 treemap-beta
-"Section 1"
+"Section 2"
     "Leaf 1.1": 12
     "Section 1.2":::class1
       "Leaf 1.2.1": 12
-"Section 2"
+"Section 1"
     "Leaf 2.1": 20:::class1
     "Leaf 2.2": 25
     "Leaf 2.3": 12
