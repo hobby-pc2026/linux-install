@@ -12,11 +12,11 @@ flowchart LR
 
             C --> E[サイトへ遷移]
      end
-    subgraph フェーズ3 [購入フェーズ]
+    subgraph フェーズ3 [OS・アプリのインストール]
         subgraph サブ5 [検索行動]
-            E --> F[キー検索]
-            F --> G[キーワ検索]
-            G --> H[サイトへ遷移] 
+            E --> F[ロケール]
+            F --> G[パーティション]
+            G --> H[ID・パスワード] 
         end
         subgraph サブ8 [SNS流入]
             H --> I[サイトへ遷移]
