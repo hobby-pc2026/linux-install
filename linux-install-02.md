@@ -10,9 +10,6 @@ columns 1
     B["A wide one in the middle"]
     C
   end
-  space
-  D
-  ID --> D
-  C --> D
+
   style B fill:#969,stroke:#333,stroke-width:4px
 ```
