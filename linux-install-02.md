@@ -19,10 +19,10 @@ flowchart LR
             G --> H[ID・パスワード] 
         end
         subgraph サブ8 [SNS流入]
-            H --> I[サイトへ遷移]
+            H --> I[日本語化]
         end
         subgraph サブ9 [検索行動]
-            I --> J[キーワード検索]
+            I --> J[アプリのインストール]
         end
     end
 ```
