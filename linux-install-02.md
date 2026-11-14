@@ -15,11 +15,7 @@ flowchart LR
     subgraph フェーズ3 [購入フェーズ]
         subgraph サブ5 [検索行動]
             E --> F[キー検索]
-        end
-        subgraph サブ6 [検索行動]
             F --> G[キーワ検索]
-        end
-        subgraph サブ7 [SNS流入]
             G --> H[サイトへ遷移] 
         end
         subgraph サブ8 [SNS流入]
