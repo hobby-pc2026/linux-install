@@ -4,13 +4,13 @@ Markdown
 journey
     title linux インストール
     section インストールメディアの準備
-      .iso ダウンロード: 5: Me
-      USBメモリに書き込み: 3: Me
+      .iso ダウンロード: 5: 
+      USBメモリに書き込み: 3: 
     section ハードウェアの確認
-      起動、BIOS・UEFI設定: 5: Me
-      wi-fi の準備: 5: Me
+      起動、BIOS・UEFI設定: 5: 
+      wi-fi の準備: 5: 
     section インストール
-      インストール: 5: Me
-      日本語化: 5: Me
-      アプリのインストール: 5: Me
+      インストール: 5: 
+      日本語化: 5: 
+      アプリのインストール: 5: 
 ```
