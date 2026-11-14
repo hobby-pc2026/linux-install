@@ -12,6 +12,7 @@ flowchart LR
         subgraph サブ3 [検索行動]
             C --> D[キーワード検索]
         end
+    subgraph フェーズ2 [認知フェーズ]
     end
         subgraph サブ1 [SNS流入]
             D[広告を見る] --> E[サイトへ遷移]
