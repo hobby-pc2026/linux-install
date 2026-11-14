@@ -2,12 +2,9 @@ Markdown
 
 ```mermaid
 flowchart LR
-    subgraph フェーズ1 [認知フェーズ]
+    subgraph フェーズ1 [インストール・メディアの準備]
         subgraph サブ1 [SNS流入]
-            A[広告を見る] 
-        end
-        subgraph サブ2 [SNS流入]
-            A --> B[サイトへ遷移]
+            A[.iso のダウンロード] --> B[USBメモリに書き込む]
         end
     end
     subgraph フェーズ2 [認知フェーズ]
